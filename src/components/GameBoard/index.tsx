@@ -1,5 +1,5 @@
-import React, { DragEvent, DragEventHandler, EventHandler } from 'react';
-import { POSITIONS_FLOOR } from '../../data/positionsFloor';
+import React from 'react';
+
 import { useBoard } from '../../hooks/useBoard';
 import { MapFloor } from '../MapFloor';
 import { PlayerPiece } from '../PlayerPiece';
