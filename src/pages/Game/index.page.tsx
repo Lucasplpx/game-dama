@@ -4,7 +4,7 @@ import { CardSettings } from '../../components/CardSettings';
 import { GameBoard } from '../../components/GameBoard';
 import { Container, ItemDois, ItemTres, ItemUm } from './styles';
 
-export const Game: NextPage = () => {
+const Game: NextPage = () => {
   return (
     <Container>
       <ItemUm>
@@ -21,3 +21,4 @@ export const Game: NextPage = () => {
     </Container>
   );
 };
+export default Game;
